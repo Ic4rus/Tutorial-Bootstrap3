@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bootstrap 3 Dropdown Menu</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+	min-height: 1000px;
+	padding-top: 50px;
+}
+.example {
+	margin: 5px;
+}
+</style>
+</head>
+
+<body>
+	<div class="example">
+		<div id="header">
+			<nav class="navbar navbar-inverse">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand">Freetuts.net</a>
+				</div>
+				
+				<div class="navbar-collapse collapse" id="menu">
+					<ul class="nav navbar-nav">
+						<li><a href="">Trang chủ</a></li>
+						<li><a href="">Giới thiệu</a></li>
+						<li><a href="">Tin tức</a></li>
+						<li><a href="">Thương hiệu</a></li>
+						<li><a href="">Liên hệ</a></li>						
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a data-toggle="dropdown" href="">Tài khoản<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Thông tin</a></li>
+								<li><a href="#">Đổi mật khẩu</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Thoát</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</body>
+</html>
